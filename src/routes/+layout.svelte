@@ -33,6 +33,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content={$page.url.href.split(/[?#]/)[0]} />
   <meta property="og:image" content="{$page.url.protocol}//{$page.url.host}{base}/thumbnail.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1280" />
+  <meta property="og:image:height" content="720" />
 
   <meta property="og:locale" content={languageTag()} />
   {#each availableLanguageTags as tag}
